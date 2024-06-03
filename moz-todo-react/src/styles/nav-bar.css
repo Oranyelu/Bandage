@@ -1,0 +1,39 @@
+header {
+  padding: 0.5% 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Links a {
+  text-decoration: none;
+  color: #737373;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #252b42;
+}
+
+@media screen and (max-width: 992px) {
+  .hambuger-menu {
+    display: none;
+  }
+}
+.hambuger-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hambuger-menu a {
+  text-decoration: none;
+  color: #23a6f0;
+}

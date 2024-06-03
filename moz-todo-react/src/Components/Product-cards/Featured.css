@@ -1,0 +1,60 @@
+.feature-header{
+    display: flex;
+    flex-direction: column;
+    color: #23A6F0;
+}
+.feature-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5%;
+    justify-content: center;
+}
+.feature-header b{
+    color: #252B42;
+    font-size: 40px;
+}
+
+.Ara-abgala-react{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 348px;
+    box-shadow: 5px 10px 20px  #73737326 ;
+
+
+}
+.Ara-abgala-react img{
+    height: 300px;
+    width: 348px;
+}
+.Ara-abgala-react article{
+padding: 20px;
+color: #737373;
+font-size: 14px;
+}
+.Ara-abgala-react span{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+
+}
+.Ara-abgala-react span .google{
+    color: #23A6F0;
+}
+.Ara-abgala-react div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+.Ara-abgala-react a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+}
+.Ara-abgala-react h3{
+    font-size: 20px;
+    font-weight: 400;
+}

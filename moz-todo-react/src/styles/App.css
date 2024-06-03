@@ -1,0 +1,33 @@
+body {
+  background-color: #ffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+}
+
+.perks{
+  padding: 5%;
+  text-align: center;
+}
+.perks header{
+display: flex;
+flex-direction: column;
+}
+.perks main{
+  display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+.perks main div{
+  width: 30%;
+}
+
+.perks b{
+  font-size: 20px;
+  color: #252B42;
+}
+.perks p{
+  font-size: 14px;
+  color: #737373;
+  margin: 10px;
+}

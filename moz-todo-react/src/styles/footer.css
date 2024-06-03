@@ -1,0 +1,77 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 30px;
+  }
+  
+  .Footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    padding: 3% 5%;
+  }
+  
+  .Main-Footer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding: 3% 5%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .Main-Footer main {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .Main-Footer main nav {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    color: #252b42;
+    font-weight: 700;
+  }
+  .Main-Footer main nav a {
+    text-decoration: none;
+    color: #737373;
+  }
+  
+  .Footer aside b {
+  color: #252b42;
+  }
+  
+  .Footer aside p{
+      color: #737373;
+      font-size: 0.6rem;
+      font-weight: 400;
+  }
+  .Footer input {
+    background: #f9f9f9;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px 0px 0px 7px;
+    border-color: #e6e6e6;
+    height: 55px;
+    width: 204px;
+    color: #737373;
+  }
+  .Footer button {
+    background: #23a6f0;
+    border-style: none;
+    height: 58px;
+    width: 117px;
+    color: #e6e6e6;
+    border-radius: 0px 7px 7px 0px;
+  }
+  .Footer-tag {
+    padding: 3% 5%;
+    background-color: #e6e6e6;
+    color: #737373;
+  }
+  

@@ -1,0 +1,43 @@
+.Bestseller{
+    padding: 0% 5%;
+    
+}
+
+.Bestseller-header {
+    display: flex;
+    flex-direction: column;
+
+}
+.Bestseller-header p{
+    margin: 9px;
+    color: #737373;
+}
+
+.Bestseller-header .bold{
+    font-size: 24px;
+    color: #252B42;
+}
+
+.bestseller-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.Bestseller div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.Bestseller button{
+    color: #23A6F0;
+    background: transparent;
+    border-color: #23A6F0;
+    border-style: solid;
+    height: 52px;
+    width: 261px;
+    font-weight: bold;
+    border-radius: 5px;
+}
