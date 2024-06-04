@@ -13,13 +13,17 @@
 }
 .hero-card .product-count{
     color: #2DC071;
+    font-weight: 600;
  }
 .hero-card .product-name{
     font-size: 24px;
+    font-weight: 700;
+
 }
 
 .hero-card p{
     margin: 0;
     font-size: 14px;
+    font-weight: 400;
 
 }
