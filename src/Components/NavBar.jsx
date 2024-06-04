@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/nav-bar.css'
+import { Link } from 'react-router-dom'
+import Cart from "../Pages/Cart";
 
 function NavBar() {
   return (
@@ -17,7 +19,8 @@ function NavBar() {
         <span className="hambuger-menu">
           <a href="">Login / Register</a>
           <span>search icon</span>
-          <span>cart icon</span>
+          <Link to={Cart} >
+          cart icon </Link>
           <span>likes icon</span>
         </span>
       </header>
