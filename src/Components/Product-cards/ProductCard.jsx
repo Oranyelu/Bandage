@@ -5,9 +5,12 @@ function ProductCard() {
       <div className='product_card'>
           <img src="" />
           <article>
-              <p>Product Name</p>
-              <p>Product Description</p>
-              <p>Price</p>
+              <p className='product-name'>Product Name</p>
+        <p className='description'>Product Description</p>
+        <article>
+          <p className='price1'>Price</p>
+          <p className='price2'>Price</p>
+        </article>
           </article>
     </div>
   )

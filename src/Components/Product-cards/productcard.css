@@ -1,11 +1,35 @@
 .product_card{
-    background-color: rgb(226, 128, 128);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-shadow: 5px 5px 10px #c8eae19f;
 }
 
 .product_card img{
     width: 247.9px;
     height: 321.3px;
+}
+
+.product_card .product-name{
+    font-weight: 700;
+    color: #252B42;
+}
+.product_card .description{
+    color:  #737373;
+    font-weight: 400;
+}
+
+.price1{
+    color: #BDBDBD;
+    font-weight: 700;
+}
+.price2{
+    color: #23856D;
+    font-weight: 700;
+}
+.product_card article article{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
