@@ -47,13 +47,37 @@ function App() {
       <section>
         <FeaturedPosts />
       </section>
-      <section>
-        <main>
-          <h1>What the </h1>
+      <section className="rating-section">
+        <main className="testimonials">
+          <h1>What they say about us </h1>
+          <img src="" alt="user profile" />
+          <span>star rating</span>
+          <p>
+            Slate helps you see how many more days you need to work to reach
+            your financial goal.
+          </p>
+          <p className="username">Regina Miles</p>
+          <p className="role">Designer</p>
         </main>
-        <main></main>
-</section>
-
+        <main className="images">
+          <img src="" alt="1" />
+          <img src="" alt="2" />
+          <img src="" alt="3" />
+          <img src="" alt="4" />
+          <img src="" alt="5" />
+          <img src="" alt="6" />
+          <img src="" alt="7" />
+          <img src="" alt="8" />
+          <img src="" alt="9" />
+        </main>
+      </section>
+      <section className="tail">
+        <p className="title">Designing Better Experience</p>
+        <b>Problems trying to resolve the conflict between </b>
+        <p className="sub">Problems trying to resolve the conflict between</p>
+        <p className="price">$16.48</p>
+        <button>Buy Now</button>
+      </section>
       <Footer />
     </>
   );

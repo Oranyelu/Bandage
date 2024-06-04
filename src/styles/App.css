@@ -31,3 +31,69 @@ margin-top: 50px;
   color: #737373;
   margin: 10px;
 }
+
+.testimonials{
+  text-align: center;
+  width: 40%;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  gap: 10px;
+  
+}
+.images img{
+  width: 142.77px;
+  height: 142.77px;
+  background-color: #23856D;
+
+}
+.tail{
+  text-align: center;
+  padding: 5%;
+}
+.tail button{
+  color: #ffff;
+  background-color: #23A6F0;
+  border-style: none;
+  border-radius: 5px;
+  height: 52px;
+  width: 292px;
+}
+.tail .title{
+  color: #23A6F0;
+}
+.tail b{
+  color: #252B42;
+  font-size: 40px;
+}
+.tail .price{
+  color: #23856D;
+
+}
+.tail .sub{
+  color: #737373;
+  font-size: 12px;
+}
+.rating-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .rating-section{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .images{
+    width: 100%;
+  }
+  .testimonials{
+    width: 100%;
+  }
+
+}

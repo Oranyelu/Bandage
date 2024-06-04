@@ -26,7 +26,8 @@
   
   .Main-Footer main {
     display: flex;
-    column-gap: 20px;
+    width: 70%;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   
@@ -75,3 +76,15 @@
     color: #737373;
   }
   
+  @media only screen and (max-width: 900px) {
+    .Main-Footer main{
+      flex-direction: column;
+      gap: 40px;
+    }
+    .Main-Footer{
+      flex-direction: column;
+    }
+    .Footer-tag{
+      text-align: center;
+    }
+  }
